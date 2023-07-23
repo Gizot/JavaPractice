@@ -14,10 +14,20 @@ public class Main {
 
         for(int i = 0; i < matris.length; i++)  {
             for (int k = 0; k < matris[i].length; k++){
-                System.out.print(matris[i][k] + " ");
+               // System.out.print(matris[i][k] + " ");
+            }
+            //System.out.println();
+        }
+
+        //for each ile aşağıdaki gibi kullanırız.
+        for(int[] row : matris) {
+            for (int col : row) {
+                System.out.print(col + " ");
             }
             System.out.println();
+
         }
+
 
 
 
