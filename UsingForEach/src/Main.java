@@ -1,6 +1,13 @@
 public class Main {
     public static void main(String[] args) {
-        int[] list = {1, 2, 3, 4};
+        String[] flowers= {"Gül", "Papatya", "Kasım Patı"};
+        for (String str: flowers ) {
+            System.out.println(str);
+
+        }
+
+
+       /* int[] list = {1, 2, 3, 4};
         //normalde dizilerin elemanlarını tek tek gezebilmek adına aşağıdaki gibi
         // for yapısını kullanıyorduk.
         for(int i=0;  i< list.length ; i++) {
@@ -16,17 +23,17 @@ public class Main {
         //kodbloğu
             // }
             //şeklinde oluşturulur.
-            /*
+            *//*
             Burada iki parametreyi iki nokta ile ayırıyoruz
             ilk parametre dizinin döneceği veritipini ve for içinde dizinin elemanı olarak kullanacağınız değişkeni t
             ifade eder.
             Diğer kısımda ise dizimizin ismini belirtiriz.
-             */
+             *//*
 
         int sum =0;
         for(int i : list) {
             sum += i;
         }
-        System.out.println("Toplam: " + sum);
+        System.out.println("Toplam: " + sum);*/
     }
 }
