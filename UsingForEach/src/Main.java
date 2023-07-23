@@ -1,10 +1,24 @@
 public class Main {
     public static void main(String[] args) {
-        String[] flowers= {"Gül", "Papatya", "Kasım Patı"};
+       /* String[] flowers= {"Gül", "Papatya", "Kasım Patı"};
         for (String str: flowers ) {
             System.out.println(str);
 
+        }*/
+        int[][] matris = {
+                {1,2,3},
+                {4,5,6},
+                {7,8,9},
+                {10,11,12}
+        };
+
+        for(int i = 0; i < matris.length; i++)  {
+            for (int k = 0; k < matris[i].length; k++){
+                System.out.print(matris[i][k] + " ");
+            }
+            System.out.println();
         }
+
 
 
        /* int[] list = {1, 2, 3, 4};
