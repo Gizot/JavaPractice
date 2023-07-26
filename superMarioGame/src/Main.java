@@ -15,7 +15,7 @@ public class Main {
         this.remainingLife = remainingLife;
         this.coordinate = coordinate;
          */
-        Coordinate marioCoordinate = new Coordinate();
+        Coordinate marioCoordinate = new Coordinate(0,0);
 
         MarioBaseCharacter mario = new Mario("Mario",1, GrowthCycleEnum.LITTLE,
                 1,false,3,marioCoordinate);
