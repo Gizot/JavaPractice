@@ -5,4 +5,18 @@ public class Mercedes extends Car{
     public void carColor() {
         System.out.println("Alp beyazı");
     }
+
+
+    @Override
+    public int calculateZeroToHundredSpeedTime() {
+        return getHorsePower() * getWeight() /1000;
+    }
+
+
+
+
+
+
+
+
 }

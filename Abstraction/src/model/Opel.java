@@ -7,4 +7,11 @@ public class Opel extends Car{
     public void carColor() {
         System.out.println(" arabanın rengi kırmızı");
     }
+
+    @Override
+    public int calculateZeroToHundredSpeedTime() {
+        return 0;
+    }
+
+
 }
